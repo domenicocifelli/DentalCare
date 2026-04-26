@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="it" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dental Care Napoli — Eccellenza clinica e cura empatica. Odontoiatria moderna con tecnologie avanzate." />
+  <title>Dental Care | Eccellenza Clinica e Cura Empatica</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       NAVBAR
+  ═══════════════════════════════════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-inner">
+      <a href="#home" class="navbar-logo">Dental Care</a>
+
+      <ul class="navbar-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#services">Servizi</a></li>
+        <li><a href="#location">Dove siamo</a></li>
+        <li><a href="#contacts">Contatti</a></li>
+      </ul>
+
+      <div class="navbar-cta">
+        <button class="btn btn-primary btn-sm" data-action="prenota">
+          Prenota Appuntamento
+        </button>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Apri menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#home" class="active">Home</a>
+      <a href="#services">Servizi</a>
+      <a href="#location">Dove siamo</a>
+      <a href="#contacts">Contatti</a>
+      <button class="btn btn-primary" data-action="prenota">Prenota Appuntamento</button>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ═══════════════════════════════════════════
+         HERO
+    ═══════════════════════════════════════════ -->
+    <section class="hero" id="home">
+      <div class="hero-grid">
+
+        <!-- Left: content -->
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="material-symbols-outlined" style="font-size:15px;">verified</span>
+            Eccellenza nelle Cure Dentali
+          </div>
+
+          <h1 class="hero-title">
+            Odontoiatria moderna<br>
+            con un <span class="accent">tocco umano.</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Sperimenta la precisione clinica unita a una cura empatica. Combiniamo tecnologie avanzate e un ambiente rilassante per regalarti il sorriso che meriti.
+          </p>
+
+          <div class="hero-actions">
+            <button class="btn btn-primary" data-action="prenota">
+              <span class="material-symbols-outlined" style="font-size:18px;">calendar_month</span>
+              Prenota Appuntamento
+            </button>
+            <a href="#services" class="btn btn-ghost">Esplora i Servizi</a>
+          </div>
+
+          <div class="hero-stats">
+            <div>
+              <div class="hero-stat-value">15+</div>
+              <div class="hero-stat-label">Anni di Esperienza</div>
+            </div>
+            <div>
+              <div class="hero-stat-value">3.200+</div>
+              <div class="hero-stat-label">Pazienti Felici</div>
+            </div>
+            <div>
+              <div class="hero-stat-value">100%</div>
+              <div class="hero-stat-label">Protocolli Senza Dolore</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: image -->
+        <div class="hero-image-wrap">
+          <div class="hero-image-glow"></div>
+
+          <!-- Floating badge 1 -->
+          <div class="floating-card floating-card-1">
+            <div class="fc-icon">
+              <span class="material-symbols-outlined">verified_user</span>
+            </div>
+            <div>
+              <div style="font-size:12px;color:var(--on-surface-variant);font-weight:400;">Certificazione</div>
+              Clinica Accreditata
+            </div>
+          </div>
+
+          <!-- Floating badge 2 -->
+          <div class="floating-card floating-card-2">
+            <div class="fc-icon">
+              <span class="material-symbols-outlined">star</span>
+            </div>
+            <div>
+              <div style="font-size:12px;color:var(--on-surface-variant);font-weight:400;">Valutazione</div>
+              4.9 / 5.0 ⭐
+            </div>
+          </div>
+
+          <img
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJ2QPH4gaFsvCZIIAQ4gwTYi3AO4fA74tkhvOaYypn_DtUDWVgzEYUFh0l7_OUuxCUCegHYuNYLh8BxC2OMgSt18nvlRYg65ZElWUdqRrMakpMc7s9uBlq9Y3MXDV6vdagEqEiVgA4ZTsoLGb7BpOWWo2_yEvO-GmWUMcpsk_NRzKu-4-sRgr56JwYvM9kflRoPih1Z6-Y-IQH0DqlAkzIUNnP10J2RuPhDhfgLQaA7wVWSGBBUt2toxs-Wkz16PPhmxOUIPjWV0Gk"
+            alt="Interno clinica dentale moderna e luminosa con attrezzature di alta gamma"
+          />
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         SERVICES
+    ═══════════════════════════════════════════ -->
+    <section class="services" id="services">
+      <div class="section-header reveal">
+        <h2 class="text-h2">Servizi Odontoiatrici Completi</h2>
+        <p class="text-body-md">Offriamo una gamma completa di cure dentali, dall'igiene preventiva ai complessi restauri estetici.</p>
+      </div>
+
+      <div class="services-grid">
+
+        <!-- Card 1 — large -->
+        <div class="service-card col-2 reveal">
+          <div>
+            <div class="service-icon bg-primary-fixed">
+              <span class="material-symbols-outlined text-primary">dentistry</span>
+            </div>
+            <h3 class="text-h3">Odontoiatria Generale</h3>
+            <p>Controlli di routine, pulizie e cure preventive progettate per mantenere la tua salute orale per tutta la vita. Ogni visita è un passo verso un sorriso più sano.</p>
+          </div>
+          <a href="#contacts" class="service-link">
+            Scopri di più
+            <span class="material-symbols-outlined" style="font-size:18px;">arrow_forward</span>
+          </a>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="service-card reveal reveal-delay-1">
+          <div>
+            <div class="service-icon bg-secondary-container">
+              <span class="material-symbols-outlined text-secondary">orthopedics</span>
+            </div>
+            <h3 class="text-h3">Ortodonzia</h3>
+            <p>Soluzioni di allineamento moderne, tra cui Invisalign e apparecchi trasparenti per tutte le età.</p>
+          </div>
+          <a href="#contacts" class="service-link">
+            Scopri di più
+            <span class="material-symbols-outlined" style="font-size:18px;">arrow_forward</span>
+          </a>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="service-card reveal reveal-delay-2">
+          <div>
+            <div class="service-icon bg-surface-highest">
+              <span class="material-symbols-outlined" style="color:var(--on-surface-variant)">medical_services</span>
+            </div>
+            <h3 class="text-h3">Igiene Dentale</h3>
+            <p>Detartrasi professionale e lucidatura per mantenere le gengive sane e l'alito fresco tutto l'anno.</p>
+          </div>
+          <a href="#contacts" class="service-link">
+            Scopri di più
+            <span class="material-symbols-outlined" style="font-size:18px;">arrow_forward</span>
+          </a>
+        </div>
+
+        <!-- Card 4 — image -->
+        <div class="service-card-image col-2 reveal reveal-delay-3">
+          <img
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDXmXtl3hc--9hXViXr8cQiW156AaUlb4nMbKIe1zR1fHniCpP2_mjJlsjwy-e51sYLFnVVefE3qCeAw-0iZLq5CyOWdH_EZSGV-cGrzEbpQO0SbA9PI2pyRelZMuCnEJEx9WI7H8YSepOcaa-7mwey8Ja3Gua5Il9brlS6PKBNBUwYFlWKtYcDvN10Ew2wmjScSwUyYm8ZTIh4nwjUD8kv6YPU2m7E6IfJGQd63lh4GqXGVwAWzhIx8cRmnuZWtBsmOWnlvqCXCNW8"
+            alt="Dentista professionista al lavoro con strumenti ad alta tecnologia"
+          />
+          <div class="service-card-image-overlay">
+            <h3 class="text-h3">Restauro Estetico</h3>
+            <p>Faccette, sbiancamento e riabilitazione completa per un sorriso perfetto che duri nel tempo.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         ABOUT
+    ═══════════════════════════════════════════ -->
+    <section class="about" id="about">
+      <div class="about-inner">
+
+        <!-- Images -->
+        <div class="about-images reveal">
+          <img
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCPrsH5zHVUFr7-JwXqrRmEUm6Suk2WY6PcyhmUt9L2UADWErkFIhu4-bDqSAUdQglo2XgHpQipd60NiFcyjIMV-ko_em5fRs2sXdA5chtz6K1Izzqz3PLpSFdASRKjshre1VcVAx5DjKexJJDWWEMxaE69BcxisO3q5sRBf7jrGItmdJI13XhzP7FIdiQeF42ffRruEY31CSt6hndi3UCoGlYcfljCwtNm_9EY3bEGhFFdkiTnm8ks8gJJrQAkMFfFlDHYM4P3qNn1"
+            alt="Attrezzatura clinica moderna"
+          />
+          <img
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCsqsfwPFRiWEiVS3siEJNkQQ-QjRYkBIstBvXHHvzyOf8AMdz_cVX8syI0DfTlUfLHtQDRlepB3yPz8-hJeu1QNoIOaIjSMWJvmJ9WbrhJCsasIJ-8P_0u3-fK36BQQCY0qzgBD1QaChrFbTf1oo8dRmYnoYOxsd6pQ8AAqI6NRlotmJ1VEwtmBXIvFM7b1aLAt2uGKKieBHxzX0FsP747RYPL8c4nmGY3IW9bUtO3MsSCDbevDWZirYxX-VR9qyXHjC_8rYc9EldY"
+            alt="Sala consultazione rilassante e luminosa"
+          />
+        </div>
+
+        <!-- Content -->
+        <div class="about-content reveal reveal-delay-1">
+          <h2 class="text-h2">Eccellenza Clinica e Tecnologia</h2>
+          <p>
+            La nostra clinica è progettata attorno al concetto di "Odontoiatria Digitale". Integrando l'imaging 3D e la diagnostica guidata dall'IA, garantiamo una precisione senza precedenti riducendo al minimo il disagio del paziente.
+          </p>
+
+          <div class="about-features">
+            <div class="about-feature">
+              <div class="feature-icon">
+                <span class="material-symbols-outlined">view_in_ar</span>
+              </div>
+              <div>
+                <h4>Scansione 3D di Nuova Generazione</h4>
+                <p>Niente più scomode impronte fisiche. Rilievi digitali ultra-precisi in pochi secondi.</p>
+              </div>
+            </div>
+
+            <div class="about-feature">
+              <div class="feature-icon">
+                <span class="material-symbols-outlined">spa</span>
+              </div>
+              <div>
+                <h4>Protocolli Senza Dolore</h4>
+                <p>Opzioni di sedazione e tecnologia laser per un'esperienza delicata e serena.</p>
+              </div>
+            </div>
+
+            <div class="about-feature">
+              <div class="feature-icon">
+                <span class="material-symbols-outlined">psychology</span>
+              </div>
+              <div>
+                <h4>Diagnostica Guidata dall'IA</h4>
+                <p>Analisi predittiva e supporto alla diagnosi per piani di cura personalizzati.</p>
+              </div>
+            </div>
+          </div>
+
+          <div style="margin-top:8px;">
+            <button class="btn btn-primary" data-action="prenota">
+              Prenota una Consulenza
+              <span class="material-symbols-outlined" style="font-size:18px;">arrow_forward</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         LOCATION
+    ═══════════════════════════════════════════ -->
+    <section class="location" id="location">
+      <div class="location-inner">
+
+        <div class="location-header reveal">
+          <h2 class="text-h2">Dove siamo</h2>
+          <p>Vieni a trovarci nel cuore del centro storico.</p>
+        </div>
+
+        <div class="location-grid">
+
+          <div class="map-embed reveal">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m14!1m8!1m3!1d3019.5397087648347!2d14.2464731!3d40.8446979!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133b08492040b2e3%3A0x6b87d896940d9b4c!2sVia%20Toledo%2C%20123%2C%2080134%20Napoli%20NA!5e0!3m2!1sit!2sit!4v1715874291845!5m2!1sit!2sit"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Mappa Dental Care Napoli"
+            ></iframe>
+          </div>
+
+          <div class="location-info reveal reveal-delay-1">
+
+            <div class="info-card bg-surface-container">
+              <h4>Indirizzo Clinica</h4>
+              <div class="info-address">
+                <span class="material-symbols-outlined">location_on</span>
+                <span>Via Toledo, 123<br>80134 Napoli, Italia</span>
+              </div>
+            </div>
+
+            <div class="info-card bg-surface-high">
+              <h4>Orari di Apertura</h4>
+              <div class="hours-list">
+                <div class="hours-row">
+                  <span>Lun – Ven</span>
+                  <span>09:00 – 19:00</span>
+                </div>
+                <div class="hours-row">
+                  <span>Sabato</span>
+                  <span>09:00 – 13:00</span>
+                </div>
+                <div class="hours-row closed">
+                  <span>Domenica</span>
+                  <span>Chiuso</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="info-card bg-surface-container" style="border-radius:20px;padding:28px;">
+              <h4>Contatti Rapidi</h4>
+              <div style="display:flex;flex-direction:column;gap:12px;">
+                <a href="tel:+390811234567" class="contact-link" style="color:var(--on-surface-variant);font-size:14px;">
+                  <span class="material-symbols-outlined" style="color:var(--primary);font-size:20px;">call</span>
+                  +39 081 123 4567
+                </a>
+                <a href="mailto:info@dentalcarenapoli.it" class="contact-link" style="color:var(--on-surface-variant);font-size:14px;">
+                  <span class="material-symbols-outlined" style="color:var(--primary);font-size:20px;">mail</span>
+                  info@dentalcarenapoli.it
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         CONTACTS
+    ═══════════════════════════════════════════ -->
+    <section class="contacts" id="contacts">
+      <div class="contacts-inner">
+        <div class="contact-card reveal">
+
+          <!-- Left info panel -->
+          <div class="contact-info">
+            <h2 class="text-h2">Contattaci</h2>
+            <p>Hai una domanda o vuoi prenotare una consulenza? Il nostro team è qui per aiutarti a ottenere il tuo miglior sorriso.</p>
+
+            <div class="contact-links">
+              <a href="tel:+390811234567" class="contact-link">
+                <div class="contact-link-icon">
+                  <span class="material-symbols-outlined">call</span>
+                </div>
+                +39 081 123 4567
+              </a>
+              <a href="mailto:info@dentalcarenapoli.it" class="contact-link">
+                <div class="contact-link-icon">
+                  <span class="material-symbols-outlined">mail</span>
+                </div>
+                info@dentalcarenapoli.it
+              </a>
+              <div class="contact-link">
+                <div class="contact-link-icon">
+                  <span class="material-symbols-outlined">location_on</span>
+                </div>
+                Via Toledo, 123 — Napoli
+              </div>
+            </div>
+          </div>
+
+          <!-- Right form panel -->
+          <div class="contact-form-wrap">
+            <form id="contactForm">
+              <div class="form-grid">
+                <div class="form-group">
+                  <label for="nome">Nome</label>
+                  <input type="text" id="nome" name="nome" placeholder="Mario Rossi" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" placeholder="mario@esempio.it" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="servizio">Servizio Desiderato</label>
+                <select id="servizio" name="servizio">
+                  <option value="">Seleziona un servizio…</option>
+                  <option>Controllo Generale</option>
+                  <option>Ortodonzia</option>
+                  <option>Igiene Dentale</option>
+                  <option>Restauro Estetico</option>
+                  <option>Consulenza Estetica</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="messaggio">Messaggio</label>
+                <textarea id="messaggio" name="messaggio" rows="4" placeholder="Come possiamo aiutarti?"></textarea>
+              </div>
+
+              <button type="submit" class="form-submit">
+                Invia Richiesta
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="footer-inner">
+
+      <div class="footer-brand">
+        <h3>Dental Care</h3>
+        <p>© 2024 Dental Care. Eccellenza Clinica e Cura Empatica.</p>
+      </div>
+
+      <ul class="footer-links">
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Termini di Servizio</a></li>
+        <li><a href="#">Portale Pazienti</a></li>
+        <li><a href="#">Contatti Emergenza</a></li>
+      </ul>
+
+      <div class="footer-socials">
+        <button class="footer-social-btn" aria-label="Sito web">
+          <span class="material-symbols-outlined" style="font-size:20px;">public</span>
+        </button>
+        <button class="footer-social-btn" aria-label="Informazioni mediche">
+          <span class="material-symbols-outlined" style="font-size:20px;">medical_information</span>
+        </button>
+        <button class="footer-social-btn" aria-label="Supporto">
+          <span class="material-symbols-outlined" style="font-size:20px;">support_agent</span>
+        </button>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Toast notification -->
+  <div class="toast" id="toast">
+    <span class="material-symbols-outlined">check_circle</span>
+    <span class="toast-message"></span>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
